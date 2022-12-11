@@ -1,0 +1,3 @@
+<template>
+    projects index
+</template>
