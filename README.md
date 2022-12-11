@@ -1,19 +1,12 @@
-# Content v2 Minimal Starter
+# Mako's Portfolio/Blog
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+A simple Portfolio/Blog using Nuxt 3, Content v2, TailwindCSS and DaisyUI
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
 pnpm install --shamefully-hoist
 ```
 
@@ -22,21 +15,13 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Production
 
-Build the application for production:
+As this is a static site, we use the generate command.
 
 ```bash
-npm run build
+pnpm generate
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
